@@ -282,10 +282,10 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: durand
+# duoshuo_shortname: durand
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: durand
 
 # Hypercomments
 #hypercomments_id:
