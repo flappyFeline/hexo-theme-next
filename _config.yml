@@ -85,7 +85,6 @@ scheme: Mist
 # ---------------------------------------------------------------
 font:
   enable: true
-
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   host:
 
@@ -132,8 +131,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  Github: https://github.com/flappyFeline
 
 
 # Social Links Icons
@@ -153,7 +153,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: http://ww1.sinaimg.cn/large/6b523ad1gy1fenjh5istbj20zk0zkac8.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -261,7 +261,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -279,7 +279,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+# baidu_analytics:
 
 # Duoshuo ShortName
 # duoshuo_shortname: durand
@@ -406,7 +406,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
