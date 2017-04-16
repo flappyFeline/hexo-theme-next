@@ -6,12 +6,18 @@
 // Placeholder: $code-block
 $code-block {
   overflow: auto;
-  margin: 20px 0;
-  padding: 0;
+  margin: auto;
+  padding: 15px article-padding;
   font-size $code-font-size;
+
   color: $highlight-foreground;
   background: $highlight-background;
   line-height: $line-height-code-block;
+}
+
+$line-numbers {
+  color: #666;
+  font-size: 0.85em;
 }
 
 pre, code { font-family: $code-font-family; }
@@ -50,6 +56,7 @@ pre {
     margin: 0;
     width: auto;
     border: none;
+    letter-spacing: 1px;
   }
 
   td {
